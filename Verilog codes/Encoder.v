@@ -1,4 +1,5 @@
 `timescale 1ns / 1ps
+// [TX] 卷积编码器
 module Encoder (clk, reset, in, out, out_esig);
     input in;
     input reset;

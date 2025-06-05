@@ -1,3 +1,4 @@
+// [测试] 产生低速时钟的分频模块
 module CLK(sys_clk,reset,clk);
 input sys_clk,reset;
 output reg clk;

@@ -1,3 +1,4 @@
+// [测试] 循环前缀添加与删除的测试用例
 module CP_test(
     input sysclk,RST_I,
     input [15:0] 	DAT1_I_r,
