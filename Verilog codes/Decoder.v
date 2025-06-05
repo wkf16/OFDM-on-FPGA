@@ -1,4 +1,5 @@
 `timescale 1ns/1ps
+// [RX] QPSK 解调后的解码器
 module Decoder (clk, reset, in, demod_en, out);
     input clk;
     input reset;

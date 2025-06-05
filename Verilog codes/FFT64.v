@@ -1,6 +1,7 @@
 //----------------------------------------------------------------------
 //  FFT: 64-Point FFT Using Radix-2^2 Single-Path Delay Feedback
 //----------------------------------------------------------------------
+// [RX] 64 点 FFT 模块，IFFT64 内部也会调用
 module FFT64 #(parameter WIDTH = 16) (
 		 input                clock,  //  Master Clock
 		 input                reset,  //  Active High Asynchronous Reset

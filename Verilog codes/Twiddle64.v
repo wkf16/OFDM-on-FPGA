@@ -1,6 +1,7 @@
 //----------------------------------------------------------------------
 //  Twiddle: 64-Point Twiddle Table for Radix-2^2 Butterfly
 //----------------------------------------------------------------------
+// [通用] 旋转因子查找表
 module Twiddle #(
     parameter   TW_FF = 1   //  Use Output Register
 )(

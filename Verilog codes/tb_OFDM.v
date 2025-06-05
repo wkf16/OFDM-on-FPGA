@@ -1,4 +1,5 @@
 `timescale 1ns/1ps
+// [测试] 顶层仿真测试平台
 `default_nettype none
 
 module tb_ofdm();

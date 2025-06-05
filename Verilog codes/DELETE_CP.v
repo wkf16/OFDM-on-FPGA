@@ -1,3 +1,4 @@
+// [RX] 删除循环前缀模块
 module DELETE_CP(
 	input 			CLK_I, CLK_II,RST_I,
 	input [15:0] 	DAT_I_r,DAT_I_i,

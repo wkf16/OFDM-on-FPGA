@@ -1,4 +1,5 @@
 `timescale 1ns/1ps
+// [TX] QPSK 调制器
 module Mod (
     clk, reset, in, encoder_en, en, outx, outy
 );

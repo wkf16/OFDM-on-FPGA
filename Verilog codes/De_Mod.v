@@ -1,4 +1,5 @@
 `timescale 1ns/1ps
+// [RX] QPSK 解调器
 module De_Mod (
     clk, reset, inx, iny, fft_en, en, out
 );

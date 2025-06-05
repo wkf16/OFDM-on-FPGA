@@ -1,3 +1,4 @@
+// [顶层] OFDM 收发器，整合 TX 与 RX
 module OFDM (
     input clk,
     input reset,

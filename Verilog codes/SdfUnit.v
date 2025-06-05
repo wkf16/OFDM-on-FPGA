@@ -1,6 +1,7 @@
 //----------------------------------------------------------------------
 //  SdfUnit: Radix-2^2 Single-Path Delay Feedback Unit for N-Point FFT
 //----------------------------------------------------------------------
+// [通用] Radix-2^2 单路延时反馈处理单元
 module SdfUnit #(
     parameter   N = 64,     //  Number of FFT Point
     parameter   M = 64,     //  Twiddle Resolution

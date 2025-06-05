@@ -1,6 +1,7 @@
 //----------------------------------------------------------------------
 //  Butterfly: Add/Sub and Scaling
 //----------------------------------------------------------------------
+// [通用] FFT/IFFT 蝶形运算单元
 module Butterfly #(
     parameter   WIDTH = 16,
     parameter   RH = 0  //  Round Half Up

@@ -1,4 +1,5 @@
 `timescale 1ns/1ps
+// [TX] IFFT 输入寄存模块
 module FFT_Register (
     clk, reset, inx, iny, mod_en, out_en, outx, outy
 );
